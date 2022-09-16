@@ -8,13 +8,7 @@ namespace Clase_6
 {
     public class Socio : Persona
     {
-        public DateTime FechaDesde { get; set; }
-        public DateTime FechaHasta { get; set; }
-        public string EsMorosoStr { get; set; }
-        public bool EsMoroso { get; set; }
-        public List<Socio> ListaDeCursos { get; set; }
-
-        public void CargarDatosSocio()
+        public Socio()
         {
             Console.WriteLine("Ingrese el nombre del socio: ");
             Nombre = Console.ReadLine();
@@ -48,5 +42,11 @@ namespace Clase_6
                 EsMoroso = false;
             }
         }
+
+        public DateTime FechaDesde { get; set; }
+        public DateTime FechaHasta { get; set; }
+        public string EsMorosoStr { get; set; }
+        public bool EsMoroso { get; set; }
+        public List<Socio> ListaDeCursos { get; set; }
     }
 }

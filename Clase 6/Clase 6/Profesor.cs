@@ -8,23 +8,7 @@ namespace Clase_6
 {
     public class Profesor : Persona
     {
-        public DateTime FechaInicio { get; set; }
-        public DateTime FechaFin { get; set; }
-        public List<Curso> ListaDeCursos = new List<Curso>();
-
-        //public void AsignarCurso()
-        //{
-        //    int cantidadCursos = 0;
-        //    string curso;
-        //    while (cantidadCursos < 10)
-        //    {
-        //        Console.WriteLine("Agregue un curso: ");
-        //        curso = Console.ReadLine();
-        //        cantidadCursos++;
-        //    }
-        //}
-
-        public void CargarDatosProfesor()
+        public Profesor()
         {
             Console.WriteLine("Ingrese el nombre del profesor: ");
             Nombre = Console.ReadLine();
@@ -41,5 +25,9 @@ namespace Clase_6
             Console.WriteLine("Ingrese fecha de nacimiento: ");
             FechaNacimiento = DateTime.Parse(Console.ReadLine());
         }
+
+        public DateTime FechaInicio { get; set; }
+        public DateTime FechaFin { get; set; }
+        public List<Curso> ListaDeCursos = new List<Curso>();
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TUP UTN\\Programas TUP\\3 TERCER CUATRIMESTRE\\Programacion III\\Clase 6\\Clase 6\\Clase 6.csproj",
+      "projectUniqueName": "D:\\TUP UTN\\Programas TUP\\3 TERCER CUATRIMESTRE\\Programacion III\\programacion-3\\Clase 6\\Clase 6\\Clase 6.csproj",
       "projectName": "Clase 6",
-      "projectPath": "D:\\TUP UTN\\Programas TUP\\3 TERCER CUATRIMESTRE\\Programacion III\\Clase 6\\Clase 6\\Clase 6.csproj",
+      "projectPath": "D:\\TUP UTN\\Programas TUP\\3 TERCER CUATRIMESTRE\\Programacion III\\programacion-3\\Clase 6\\Clase 6\\Clase 6.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\TUP UTN\\Programas TUP\\3 TERCER CUATRIMESTRE\\Programacion III\\Clase 6\\Clase 6\\obj\\",
+      "outputPath": "D:\\TUP UTN\\Programas TUP\\3 TERCER CUATRIMESTRE\\Programacion III\\programacion-3\\Clase 6\\Clase 6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

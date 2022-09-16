@@ -8,12 +8,6 @@ namespace Clase_6
 {
     public class Curso
     {
-        public string NombreCurso { get; set; }
-        public int Dia { get; set; }
-        public string Horario { get; set; }
-        public string VigenteStr { get; set; }
-        public bool Vigente { get; set; }
-
         public Curso()
         {
             Console.WriteLine("Ingrese nombre curso: ");
@@ -30,10 +24,16 @@ namespace Clase_6
             if (VigenteStr == "s" || VigenteStr == "S")
             {
                 Vigente = true;
-            } else
+            }
+            else
             {
                 Vigente = false;
             }
         }
+        public string NombreCurso { get; set; }
+        public int Dia { get; set; }
+        public string Horario { get; set; }
+        public string VigenteStr { get; set; }
+        public bool Vigente { get; set; }
     }
 }
